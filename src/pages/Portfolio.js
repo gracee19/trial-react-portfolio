@@ -15,7 +15,7 @@ const Portfolio = () => {
               <figure class="">
                 <a href="https://ivy-inventory-management.herokuapp.com/dashboard">
                   <img
-                    src="./assets/images/ivy.png"
+                    src="assets/ivy.png"
                     alt="ivy"
                     class="figure-img img-fluid rounded"
                   />
@@ -31,7 +31,7 @@ const Portfolio = () => {
               <figure class="">
                 <a href="https://evening-earth-10037.herokuapp.com/">
                   <img
-                    src="./assets/images/note.png"
+                    src="assets/note.png"
                     alt="notes"
                     class="figure-img img-fluid rounded"
                   />
@@ -48,7 +48,7 @@ const Portfolio = () => {
                 <figure class="">
                   <a href="https://gracee19.github.io/web-api-code-quiz/">
                     <img
-                      src="./assets/images/cq.png"
+                      src="/assets/cq.png"
                       alt="quiz"
                       class="figure-img img-fluid rounded"
                     />
@@ -64,7 +64,7 @@ const Portfolio = () => {
                 <figure class="figure">
                   <a href="https://gracee19.github.io/weather-dashboard/">
                     <img
-                      src="./assets/images/wd.png"
+                      src="/assets/wd.png"
                       alt="weather-dash"
                       class="figure-img img-fluid rounded"
                     />
@@ -80,7 +80,7 @@ const Portfolio = () => {
                 <figure class="figure">
                   <a href="https://gracee19.github.io/joke-gif/">
                     <img
-                      src="./assets/images/jokes.png"
+                      src="/assets/jokes.png"
                       alt="joke"
                       class="figure-img img-fluid rounded"
                     />
@@ -100,7 +100,7 @@ const Portfolio = () => {
               <div class="col-md-4">
                 <figure class="figure">
                   <img
-                    src="./assets/images/cup.jpg"
+                    src="/assets/cup.jpg"
                     alt="cup"
                     class="figure-img img-fluid rounded"
                   />
@@ -109,7 +109,7 @@ const Portfolio = () => {
               <div class="col-md-4">
                 <figure class="figure">
                   <img
-                    src="./assets/images/random.jpg"
+                    src="/assets/random.jpg"
                     alt="person"
                     class="figure-img img-fluid rounded"
                   />
@@ -118,7 +118,7 @@ const Portfolio = () => {
               <div class="col-md-4">
                 <figure class="figure">
                   <img
-                    src="./assets/images/rocks.jpg"
+                    src="/assets/rocks.jpg"
                     alt="rocks"
                     class="figure-img img-fluid rounded"
                   />
@@ -127,7 +127,7 @@ const Portfolio = () => {
               <div class="col-md-4">
                 <figure class="figure">
                   <img
-                    src="./assets/images/water.jpg"
+                    src="/assets/water.jpg"
                     alt="waves"
                     class="figure-img img-fluid rounded"
                   />

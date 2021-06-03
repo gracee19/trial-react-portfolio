@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.contact-form{
+  max-width: 600px;
+}
+
+footer {
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+}
+
+body{
+  background-size: cover;
+  background-image: url('background.jpg');
+}
+h1,h2{
+  text-align: center;
+  color:black;
+  font-size: 25px;
+}
+
+p {
+  font-size: large;
+}
+
+i.fab{
+  font-size: 25px;
+  color: black;
+}
+.projects{
+  margin-bottom: 10px;
+  page-break-after:auto;
+}
+figcaption{
+  text-align: center;
+}
