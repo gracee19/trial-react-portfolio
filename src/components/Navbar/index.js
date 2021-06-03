@@ -1,30 +1,46 @@
-import React, { Component } from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from 'react-bootstrap/Nav';
+import React from "react";
 
-export default class NavBar extends Component {
-  state = { activeItem: 'mr-auto' }
-
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name });
-
-  render() {
-    const { activeItem } = this.state;
-
-    return (
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="/">Grace Palenzuela</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="/home">Home</Nav.Link>
-          </Nav>
-          <Nav>
-          <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="/resume">Resume</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    );
-  }
+export default function NavBar() {
+  return (
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">
+        Grace Palenzuela
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarToggleburger"
+        aria-controls="navbarToggleburger"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggleburger">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">
+              Home<span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/portfolio">
+              Portfolio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="assets/Grace's CV.pdf">
+              Resume
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
 }

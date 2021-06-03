@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
             <Route exact path= "/" component={About}/>
             <Route exact path="/portfolio" component={Portfolio}/>
             <Route exact path="/contact" component={Contact}/>
-          </Switch>
+        </Switch>
+        <Footer/>
       </Wrapper>
     </div>
     </Router>
