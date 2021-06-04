@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div class="container p-3 my-4 border">
-    <h2>Grace Palenzuela</h2>
+      <h2>Grace Palenzuela</h2>
 
       <div class="row">
         <div class="col-md-10">
